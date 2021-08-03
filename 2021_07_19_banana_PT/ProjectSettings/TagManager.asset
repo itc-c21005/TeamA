@@ -6,6 +6,9 @@ TagManager:
   tags:
   - banana
   - ground
+  - human_body
+  - mouse
+  - knife
   layers:
   - Default
   - TransparentFX

@@ -9,7 +9,7 @@ public class pointer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        human = GameObject.Find("PeoplePrototype_0008:pCube5").GetComponent<human>();
+        human = GameObject.Find("tenshu").GetComponent<human>();
     }
 
     // Update is called once per frame
