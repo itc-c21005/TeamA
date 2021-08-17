@@ -10,7 +10,6 @@ public class Damage : MonoBehaviour
     private bool damageflag = true;
     public string human_body;
     public string knife;
-    public string mouse;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +27,7 @@ public class Damage : MonoBehaviour
 
         if (HP == 0) Destroy(gameObject);
 
-        Debug.Log(HP);
+        //Debug.Log(HP);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -36,8 +35,6 @@ public class Damage : MonoBehaviour
         if (damageflag){
 
             if (collision.gameObject.tag == knife) HP -= 1;
-
-            if (collision.gameObject.tag == mouse) HP -= 2;
 
             if (collision.gameObject.tag == human_body) HP -= 4;
 

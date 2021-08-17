@@ -9,6 +9,12 @@ TagManager:
   - human_body
   - mouse
   - knife
+  - tenshu
+  - point
+  - south
+  - north
+  - censore
+  - bananaskin
   layers:
   - Default
   - TransparentFX

@@ -15,6 +15,7 @@ public class cameracontrolle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        target = GameObject.FindGameObjectWithTag("banana");
         diff = target.transform.position - transform.position;
         targetpos = target.transform.position;
     }
@@ -27,6 +28,7 @@ public class cameracontrolle : MonoBehaviour
 
     private void Update()
     {
+
         transform.position += target.transform.position - targetpos;
         targetpos = target.transform.position;
 
